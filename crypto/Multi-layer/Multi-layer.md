@@ -46,13 +46,32 @@ Aqui es donde uno se pregunta, que sigue, a simple vista parecen palabras al aza
 
 Okey, probemos Cesar, pero cual es nuetra llave numerica, o el desplazamiento, bueno, utilicemos un pequeño codigo que nos para todas las combinaciones posibles.
 
+**[`solve.py`](./solve.py)**
+ 
+Salida:
+> `seven b space seven nine space six f space seven five space two zero space six seven space six f space seven four space two zero space seven four space six eight space six nine space seven three space seven d`
+
+### Paso 3: Hexadecimal
+
+Aqui es un poc mas claro si conoces el sistema hexadecimal, al igual que el paso anterior, reconocer cifrados es algo que se aprende con la practica, por ahora solo convitamos el mensaje.
+
+> `7b 79 6f 75 20 67 6f 74 20 74 68 69 73 7d`
+
+### Paso 4: ASCII
+
+Utilizamos la terminal:
+
 ```bash
-echo "ZnJpcmEgbyBmY25wciBmcmlyYSBhdmFyIGZjbnByIGZ2ayBzIGZjbnByIGZyaXJhIHN2aXIgZmNucHIgZ2piIG1yZWIgZmNucHIgZnZrIGZyaXJhIGZjbnByIGZ2ayBzIGZjbnByIGZyaXJhIHNiaGUgZmNucHIgZ2piIG1yZWIgZmNucHIgZnJpcmEgc2JoZSBmY25wciBmdmsgcnZ0dWcgZmNucHIgZnZrIGF2YXIgZmNucHIgZnJpcmEgZ3VlcnIgZmNucHIgZnJpcmEgcQ==" | base64 -d
+echo "70796f7520676f7420746869737d" | xxd -r -p
 ```
 
-Nos da como resulatdo:
-> `seven b space seven nine space six f space seven five space two zero space six seven space six f space seven four space two zero space seven four space six eight space six nine space seven three space seven d`
+Y aqui esta la bandera, pero antes, unas recomendaciones, usualmente cuando te dan el formato de la bandera, es para guiarte o porque el texto que encuentres, no llevara dicho formato y tu debes agregarlo, no modifiques lo que hallaste (pero fijate que este bien), incluso si los valores parecen erroneos(a veces no es un error, evita fuerza bruta), primero pruebalo, si ves que no encaja ahi realizas cambios.
+
+
 ---
 
-## Tips
+## Flag
+
+```text
+pecan{you got this}
 
