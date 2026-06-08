@@ -1,4 +1,4 @@
-# [CTF Name] - Incorrect Implementation of RSA
+# Incorrect Implementation of RSA
 
 ## Detalles del Reto
 * **Categoría:** Crypto
