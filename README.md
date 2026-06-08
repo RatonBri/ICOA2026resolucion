@@ -4,4 +4,7 @@ Cree este repositorio con el objetivo de que cualquiera que vaya a competir en l
 
 Resaltare que principalmente encontarras ejercicios de criptografia, para aquellos que teienen experiencia resolviendo ctfs, saben que debido a als diversas catgorias, uno no puede ser bueno en todo, y yo personalemnte tengo mayor habilidad en criptografia y fornsics, pero poco a poco inetnare realizar las demas catedorias, lo considero un reto para mi misma, por ultimo, les deseo suerte en la competicion.
 
-Si desean agregar su writes, hay total libertad
+Si desean agregar su writes, hay total libertad, 
+
+
+por cierto, por si hay problemas para ejecutar los codigos, principalemnte de rsa, puedes usar sagemath, de manera online, es mas efectivo
