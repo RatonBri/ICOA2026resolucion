@@ -36,11 +36,11 @@ Para resolver este reto, los pasos a seguir serían:
 ---
 
 ## Script de Solución (Exploit)
-# Aquí irá tu código en Python para automatizar la resolución
 
 ---
 
 ##  The Flag:
 
+---
 
 ## Tips
