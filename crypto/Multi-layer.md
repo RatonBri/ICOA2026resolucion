@@ -4,7 +4,6 @@
 * **Categoría:** Crypto / Encoding
 * **Puntos:** 100
 * **Autor:** Karina (ECU)
-* **Soluciones:** 17 (94% liked)
 
 ## Descripción
 > This thing has layers.
