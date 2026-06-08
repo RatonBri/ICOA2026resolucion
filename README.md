@@ -1,1 +1,7 @@
-# ICOA2026resolucion
+# ICOA 2026 resolucion de problemas
+
+Cree este repositorio con el objetivo de que cualquiera que vaya a competir en la primera edicion de la ICOA 2026, o vaya a realizarlo en futuras ediciones, pueda aprender a resolver los ejercicios, sin importar la catgoria, tengo algunos puntos a resaltar, primeramente, debo aclarar que jams he participado directamente en esta competcion, por ende desconosco como se realizara la competencia y para el momento es que escribo esto, la primera edicion a un no se realiza, cada año expandire este repositorio, por ende puede cambiar de nombre, colocare la estructura o indice en este readme, segundo, teneindo en cuenta las bases de esta primera edicion, realizare cada reto utilizando netamente python, salvo para cifrados que involucren imagenes, asi mismo explciare las vulnerabilidades en cada problema, que seria mas una parte teorica, te recomiendo que primero intentes resolver cada reto por tu cuenta, de no lograrlo puedes acceder al repositorio para poder aprender, utiliza netameinte la terminal de Linux, evita el uso de Inteligencia artificial, a menos que sea extrictamente necesario.
+
+Resaltare que principalmente encontarras ejercicios de criptografia, para aquellos que teienen experiencia resolviendo ctfs, saben que debido a als diversas catgorias, uno no puede ser bueno en todo, y yo personalemnte tengo mayor habilidad en criptografia y fornsics, pero poco a poco inetnare realizar las demas catedorias, lo considero un reto para mi misma, por ultimo, les deseo suerte en la competicion.
+
+Si desean agregar su writes, hay total libertad
