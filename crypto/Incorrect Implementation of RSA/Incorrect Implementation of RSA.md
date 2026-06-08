@@ -35,11 +35,13 @@ Para resolver este reto, los pasos a seguir serían:
 
 ---
 
-## Script de Solución (Exploit)
+## Script de Solución
+
+este lo encontras en esta carpeta. el nombre es: 
 
 ---
 
-##  The Flag:
+##  The Flag: pecan{oh_i_really_thought_i_had_that_done_c0rr3ctly_11629}
 
 ---
 
