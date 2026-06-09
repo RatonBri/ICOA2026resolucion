@@ -14,15 +14,22 @@
 
 ---
 
-## 🔍 Vulnerabilidad
+## Vulnerabilidad
 
 El reto se basa en un **Cifrado César (Rotación de caracteres)** clásico. La solución se deduce analizando el contexto histórico y filológico de la descripción:
 
 ### 1. Contexto Histórico
 El texto menciona a *Augustus* como el hijo adoptivo y heredero de un gran general (*Julio César*). En la historia de la criptografía, Julio César es mundialmente reconocido por el desarrollo del **Cifrado César**.
 
-### 2. Análisis del Criptograma
-La cadena provista conserva la estructura de mayúsculas, minúsculas y guiones bajos (`_`), lo que facilita un ataque de fuerza bruta por desplazamiento o un análisis directo de caracteres:
+Okey aqui hay algo curioso, primero usamos nuestro codigo de cifrado Cesar [`solve.py`](./solve.py).
+
+Ya hecho eso, vemos que nos da:
+
+```text
+    Even_Cipherzz_Evolve
+```
+
+Y aqui creo que es la parte donde te cuestionas, ¿Por que decidiste dedicarte a esto?, okey es una exageracion mia, pero realmente fue un dolor de cabeza encontrar el error. Me paso por la mente dejarte el reto a ti, pero bueno. 
 
 ---
 
