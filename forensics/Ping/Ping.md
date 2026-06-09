@@ -80,8 +80,3 @@ tshark -r capture.pcapng -Y "icmp.type == 8" -T fields -e data.len | awk '{print
 
 ```text
 pecan{d4t4_3xf1ltr4t10n_thr0gh_p1ng_93485}
-
-
-
-
-
