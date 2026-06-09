@@ -29,7 +29,7 @@ Ya hecho eso, vemos que nos da:
     Even_Cipherzz_Evolve
 ```
 
-Y aqui creo que es la parte donde te cuestionas, ¿Por que decidiste dedicarte a esto?, okey es una exageracion mia, pero realmente fue un dolor de cabeza encontrar el error. Me paso por la mente dejarte el reto a ti, pero bueno. 
+Y aqui creo que es la parte donde te cuestionas, ¿Por que decidiste dedicarte a esto?, okey es una exageracion mia, pero realmente fue un dolor de cabeza encontrar el error. Me paso por la mente dejarte el reto a ti, pero bueno. Por eso siempre recuerda el formato y de paso, una que otra combinacion.
 
 ---
 
