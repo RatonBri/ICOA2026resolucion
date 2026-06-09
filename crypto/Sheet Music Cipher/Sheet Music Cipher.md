@@ -25,8 +25,8 @@ El reto se basa en la **Criptografía Musical**, específicamente utilizando var
 Dentro de esta carpeta te dejo dos archivos extra,  [`metodo_thicknesse.png`](./metodo_thicknesse.png) es la clave de notas, pero ten en cuenta algunas cosa:
 1. No solo basta con reemplazar las notas con letras.
 2. Algunas notas estan de cabeza.
-3. El truco es buscar palabras que ya conociamos.
-Te dejo como lo resolvi, algunas partes estan mal, pero en general se entiende como reemplace cada letra.
+3. El truco es buscar palabras que ya conocemos.
+Te dejo como lo resolvi, algunas partes estan mal, pero en general se entiende como se reemplaza cada letra.
 
 ---
 ## Flag
