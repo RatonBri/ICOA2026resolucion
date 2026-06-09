@@ -83,7 +83,9 @@ Debido a que el algoritmo de cifrado es determinista y utiliza matrices con posi
 * **Reconstrucción Base64:** Usamos ese índice para extraer el carácter equivalente de `array64` y reconstruir la cadena Base64 original.
 * **Decodificación Final:** Traducimos el Base64 resultante para revelar el texto plano con las pulsaciones reales de la víctima.
 
-### Script de Solución (solve.py)
+### Script de Solución
+
+Este fue un poco mas complicado de realizar 
 
 ---
 
