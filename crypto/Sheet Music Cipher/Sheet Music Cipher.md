@@ -26,6 +26,7 @@ Dentro de esta carpeta te dejo dos archivos extra,  [`metodo_thicknesse.png`](./
 1. No solo basta con reemplazar las notas con letras.
 2. Algunas notas estan de cabeza.
 3. El truco es buscar palabras que ya conocemos.
+
 Te dejo como lo resolvi, algunas partes estan mal, pero en general se entiende como se reemplaza cada letra.
 
 ---
