@@ -83,7 +83,7 @@ El script automatizado encargado de procesar todos los bloques y reconstruir la 
 
 ---
 
-## 🏁 Flag
+## Flag
 
 ```text
 pecan{oh_i_really_thought_i_had_that_done_c0rr3ctly_11629}
