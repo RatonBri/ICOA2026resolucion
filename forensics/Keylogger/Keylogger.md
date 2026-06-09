@@ -85,7 +85,9 @@ Debido a que el algoritmo de cifrado es determinista y utiliza matrices con posi
 
 ### Script de Solución
 
-Este fue un poco mas complicado de realizar 
+Este fue un poco mas complicado de realizar:
+
+**[`solve.py`](./solve.py)**
 
 ---
 
