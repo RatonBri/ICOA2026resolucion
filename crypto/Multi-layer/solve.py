@@ -16,5 +16,5 @@ def Cifradocesar (texto_cifrado):
         print(f"Llave {desplazamiento}: {''.join(resultado)}")
 
 
-mensaje = "frira o fcnpr frira avar fcnpr fvk s fcnpr frira svir fcnpr gjb mreb fcnpr fvk frira fcnpr fvk s fcnpr frira sbhe fcnpr gjb mreb fcnpr frira sbhe fcnpr fvk rvtug fcnpr fvk avar fcnpr frira guerr fcnpr frira q"  # Mensaje de prueba (hola mundo con llave 3)
+mensaje = "frira o fcnpr frira avar fcnpr fvk s fcnpr frira svir fcnpr gjb mreb fcnpr fvk frira fcnpr fvk s fcnpr frira sbhe fcnpr gjb mreb fcnpr frira sbhe fcnpr fvk rvtug fcnpr fvk avar fcnpr frira guerr fcnpr frira q"
 Cifradocesar(mensaje)
