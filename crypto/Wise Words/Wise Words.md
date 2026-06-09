@@ -1,51 +1,32 @@
-# Wise Words
+# Writeup: Wise Words
 
----
-
-## Ficha Técnica
-
-| Parámetro | Detalle |
+## Detalles del Reto
+| Atributo | Detalle |
 | :--- | :--- |
-| **🏷️ Categoría** | `Crypto` / `Criptografía Clásica` |
-| **✨ Puntos** | 260 PTS |
-| **👤 Autor** | [@Riley Grimwood](https://github.com) |
+| **Categoría** | Crypto / Substitution |
+| **Puntos** | 260 puntos |
+| **Autor** | Riley Grimwood |
 
 ---
 
-## Descripción del Reto
-
-> **Enunciado Original:**
-> _"I once encountered Augustus, the adopted son and heir of a great general. When I asked him what his greatest strategy was, he simply whispered: Fwfo_Djqifsaa_Fwpmwf"_
-
-### 🔑 Pista Clave Detectada
-El texto hace referencia directa a **Augustus** (César Augusto), el hijo adoptivo y heredero de Julio César. En el contexto de la criptografía, esto es una referencia histórica directa al **Cifrado César**.
+## Descripción
+> I once encountered Augustus, the adopted son and heir of a great general. When I asked him what his greatest strategy was, he simply whispered: `Fwfo_Djqifsaa_Fwpmwf`
 
 ---
 
-## 🔍 Análisis de Vulnerabilidades
+## 🔍 Vulnerabilidad
 
-Al investigar el contexto histórico de los métodos de comunicación de Augusto, encontramos el siguiente vector de ataque:
+El reto se basa en un **Cifrado César (Rotación de caracteres)** clásico. La solución se deduce analizando el contexto histórico y filológico de la descripción:
 
-### 🚨 1. Cifrado César Modificado (Shift de Augusto)
-A diferencia de Julio César (que utilizaba históricamente un desplazamiento de 3 posiciones en el alfabeto), los historiadores como Suetonio documentaron que **Augusto utilizaba un desplazamiento de exactamente 1 posición ($k = 1$)** hacia la derecha, y no rotaba al principio del alfabeto, sino que escribía `AA` si necesitaba una `Z`.
+### 1. Contexto Histórico
+El texto menciona a *Augustus* como el hijo adoptivo y heredero de un gran general (*Julio César*). En la historia de la criptografía, Julio César es mundialmente reconocido por el desarrollo del **Cifrado César**.
 
-### 🚨 2. Análisis del Ciphertext
-Si tomamos la cadena `Fwfo_Djqifsaa_Fwpmwf` y desplazamos cada letra una posición hacia atrás en el abecedario ($k = -1$):
-* `F` $\rightarrow$ `E`
-* `w` $\rightarrow$ `v`
-* `f` $\rightarrow$ `e`
-* `o` $\rightarrow$ `n`
-
-> [!TIP]
-> La primera palabra se traduce claramente como **"Even"**, lo que valida al 100% que la vulnerabilidad del mensaje es un cifrado de sustitución monoalfabética por rotación de un solo carácter.
+### 2. Análisis del Criptograma
+La cadena provista conserva la estructura de mayúsculas, minúsculas y guiones bajos (`_`), lo que facilita un ataque de fuerza bruta por desplazamiento o un análisis directo de caracteres:
 
 ---
 
-## 🛠️ Estrategia de Resolución (Plan de Ataque)
+## Flag
 
-```mermaid
-graph TD
-    A[Leer Ciphertext] --> B(Identificar Caracteres Especiales '_')
-    B --> C[Aplicar Rotación César K = -1]
-    C --> D[Ignorar Guiones Bajos en la Rotación]
-    D --> E[🎉 Construir Flag con Formato pecan]
+```text
+pecan{Even_Cipherz_Evolve}
