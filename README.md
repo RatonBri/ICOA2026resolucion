@@ -1,10 +1,22 @@
-# ICOA 2026 resolucion de problemas
+# ICOA 2026: Resolución de Problemas
 
-Cree este repositorio con el objetivo de que cualquiera que vaya a competir en la primera edicion de la ICOA 2026, o vaya a realizarlo en futuras ediciones, pueda aprender a resolver los ejercicios, sin importar la catgoria, tengo algunos puntos a resaltar, primeramente, debo aclarar que jams he participado directamente en esta competcion, por ende desconosco como se realizara la competencia y para el momento es que escribo esto, la primera edicion a un no se realiza, cada año expandire este repositorio, por ende puede cambiar de nombre, colocare la estructura o indice en este readme, segundo, teneindo en cuenta las bases de esta primera edicion, realizare cada reto utilizando netamente python, salvo para cifrados que involucren imagenes, asi mismo explciare las vulnerabilidades en cada problema, que seria mas una parte teorica, te recomiendo que primero intentes resolver cada reto por tu cuenta, de no lograrlo puedes acceder al repositorio para poder aprender, utiliza netameinte la terminal de Linux, evita el uso de Inteligencia artificial, a menos que sea extrictamente necesario.
+Este repositorio ha sido creado con el objetivo de que cualquier persona que vaya a competir en la primera edición de la ICOA 2026, o en futuras ediciones, pueda aprender a resolver los ejercicios sin importar la categoría.
 
-Resaltare que principalmente encontarras ejercicios de criptografia, para aquellos que teienen experiencia resolviendo ctfs, saben que debido a als diversas catgorias, uno no puede ser bueno en todo, y yo personalemnte tengo mayor habilidad en criptografia y fornsics, pero poco a poco inetnare realizar las demas catedorias, lo considero un reto para mi misma, por ultimo, les deseo suerte en la competicion.
+## Puntos a Resaltar
 
-Si desean agregar su writes, hay total libertad, 
+* **Contexto de la competición:** Jamás he participado directamente en esta competición. Por lo tanto, desconozco cómo se realizará la dinámica y, al momento de escribir esto, la primera edición aún no se ha llevado a cabo. (Ya se llevo a cabo, aun busco los problemas originales y dificultad)
+* **Evolución del repositorio:** Cada año expandiré este repositorio, por lo cual el nombre del proyecto podría cambiar en el futuro. La estructura o índice correspondiente se mantendrá actualizada en este archivo.
+* **Tecnologías utilizadas:** Tomando en cuenta las bases de esta primera edición, resolveré cada reto utilizando netamente **Python**, salvo para aquellos cifrados que involucren el procesamiento de imágenes.
+* **Enfoque teórico:** Además de las soluciones prácticas, explicaré detalladamente las vulnerabilidades de cada problema a modo de base teórica.
+* **Metodología recomendada:** Te recomiendo que primero intentes resolver cada reto por tu cuenta. De no lograrlo, puedes acceder al repositorio para analizar la solución y aprender el procedimiento.
+* **Entorno de trabajo:** Se sugiere utilizar netamente la **terminal de Linux** y evitar el uso de Inteligencia Artificial, a menos que sea estrictamente necesario.
+* **Especialización de categorías:** Encontrarás principalmente ejercicios de **Criptografía**. Quienes tienen experiencia resolviendo CTFs (*Capture The Flag*) saben que, debido a la diversidad de categorías, es difícil ser experto en todo. Personalmente, poseo mayor habilidad en *Cryptography* y *Forensics*, pero intentaré abordar las demás categorías paulatinamente como un reto personal.
+* **Soporte para RSA:** Si experimentas problemas al ejecutar los códigos (principalmente los relacionados con RSA), puedes utilizar **SageMath** de manera online, ya que resulta más efectivo para estos casos.
 
+## Colaboración
 
-por cierto, por si hay problemas para ejecutar los codigos, principalemnte de rsa, puedes usar sagemath, de manera online, es mas efectivo
+Si deseas agregar tus propios *writeups*, tienes total libertad para hacerlo y contribuir con el crecimiento de este espacio.
+
+---
+
+**¡Muchos éxitos en la competición!**
